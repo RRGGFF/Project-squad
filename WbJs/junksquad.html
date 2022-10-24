@@ -19,10 +19,10 @@
                         <a href="#judul" class="a-navbar">Junk Squad</a>
                     </li>
                     <li class="li-navbar">
-                        <a href="#aboutme" class="a-navbar">ABOUT ME</a>
+                        <a href="#aboutme" class="a-navbar">About Squad</a>
                     </li>
                     <li class="li-navbar">
-                        <a href="contact.html" class="a-navbar">CONTACT ME</a>
+                        <a href="contact.html" class="a-navbar">Contact Squad</a>
                     </li>
                 </ul>
             </div>
@@ -30,18 +30,49 @@
 
             <!-- CONTENT 1 -->
             <div class="container-content" id="judul">
-                <div class="a-content">
-                    <img src="123123.jpg" class="img-content" />
-                    <p>
-                        <button type="button" class="btn btn-outline-dark"><a
-                                href="https://www.google.com/?hl=id">HAHA</a></button>
+                <div class="slider-container">
+                    <div class="slider">
+                      <div class="slides">
+                        <div id="slides__1" class="slide">
+                          <span class="slide__text">1</span>
+                          <a class="slide__prev" href="#slides__4" title="Next"></a>
+                          <a class="slide__next" href="#slides__2" title="Next"></a>
+                        </div>
+                        <div id="slides__2" class="slide">
+                          <span class="slide__text">2</span>
+                          <a class="slide__prev" href="#slides__1" title="Prev"></a>
+                          <a class="slide__next" href="#slides__3" title="Next"></a>
+                        </div>
+                        <div id="slides__3" class="slide">
+                          <span class="slide__text">3</span>
+                          <a class="slide__prev" href="#slides__2" title="Prev"></a>
+                          <a class="slide__next" href="#slides__4" title="Next"></a>
+                        </div>
+                        <div id="slides__4" class="slide">
+                          <span class="slide__text">4</span>
+                          <a class="slide__prev" href="#slides__3" title="Prev"></a>
+                          <a class="slide__next" href="#slides__1" title="Prev"></a>
+                        </div>
+                      </div>
+                      <div class="slider__nav">
+                        <a class="slider__navlink" href="#slides__1"></a>
+                        <a class="slider__navlink" href="#slides__2"></a>
+                        <a class="slider__navlink" href="#slides__3"></a>
+                        <a class="slider__navlink" href="#slides__4"></a>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <a href="https://alvarotrigo.com/blog/create-a-slider-with-pure-CSS/" target="_blank" class="read-article">
+                    Read the article 👉
+                  </a>
                         <!-- INI DARI JS -->
                         <!-- DATA END -->
 
                 </div>
 
-            </div>
-
+        </div>
+            <!-- CONTENT 2 -->
             <div class="container-content2" id="aboutme">
                 <div class="row">
                     <div class="col-md-3">
@@ -125,6 +156,8 @@
                 </div>
 
             </div>
+            <!-- CONTENT 2 SELESAI -->
+
             <!-- CONTENT CAROUSEL -->
             <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
