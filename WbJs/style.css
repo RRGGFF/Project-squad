@@ -1,0 +1,139 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin-top: 50px;
+    width: 100%;
+}
+
+
+.navbar-container {
+    background-color: #1F252E;
+    width: 100%;
+    height: 10vh;
+}
+
+.ul-navbar {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-navbar {
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+}
+
+.li-navbar:hover {
+    background-color: rebeccapurple;    
+    transition: .5S;
+    transition-delay: .5s;
+    border-radius: 8px;
+    
+}
+
+.col-md-3{
+    width: 25%;
+    margin-left:6%;
+}
+
+.a-navbar {
+    color: black;
+    text-decoration: none;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.container-content {
+    background-color:#424054;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: max-content;
+    width: 100%;
+}
+
+.btn a{
+    color: black;
+    text-decoration: none;
+    
+
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(61, 60, 60);
+    text-decoration: none;
+    font-size: 30px;
+    width: 20%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.card-body{
+    opacity: 0.5;
+    background-color: rgb(197, 193, 180, 0.5);
+}
+
+
+.container-content2 {
+
+    background:url(balmon.jpg);
+    background-size: cover; 
+    height: auto;
+    align-items: center;
+    height: max-content;
+    width: 100%;
+}
+
+
+.a-content {
+    color: rgb(61, 60, 60);
+    text-decoration: none;
+    font-size: 30px;
+    width: 20%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.img-content {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+}
+
+.container-footer {
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.h1-footer {
+    font-size: 20px;
+    color: rgb(61, 60, 60);
+}
